@@ -5,6 +5,7 @@ spring:
     username: root
     password: root
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: update
     generate-ddl: true
@@ -18,4 +19,4 @@ logging:
   file:
     name: log/blog-dev.log
 server:
-  port: 8080
+  port: 8090

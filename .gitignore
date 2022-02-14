@@ -35,7 +35,7 @@ HELP.md
 mvnw
 *.cmd
 log
-.mvn
+#.mvn
 target
 .DS_Store
 README.md
